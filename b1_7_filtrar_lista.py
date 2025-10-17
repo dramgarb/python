@@ -1,5 +1,5 @@
 lista = ["Ana", "Luis", "Carlos", "Alberto", "Marta", "Sofía"]
 for nombre in lista:
-    if nombre == "Ana" or nombre == "Alberto":
+    if nombre.startswith("A"):
         continue
     print(nombre)
