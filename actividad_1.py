@@ -1,6 +1,6 @@
 def contar_apariciones(nombre_elemento: str) -> None:
     """Busca cuántas veces aparece un elemento en la lista interna y
-muestra el resultado."""
+muestra el resultado.."""
     elementos = ["python", "java", "python", "c", "python", "go",
                  "java"]
     n = len(nombre_elemento)

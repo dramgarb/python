@@ -1,6 +1,6 @@
 def gestionar_persona() -> None:
     """Realiza exactamente los pasos indicados sobre el diccionario
-persona."""
+persona.."""
     persona = {"nombre": "Ana", "edad": "30", "ciudad": "Madrid"}
     for datos in persona:
         print("nombre:", persona.get("nombre"))
