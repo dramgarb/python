@@ -10,7 +10,7 @@ for numero in numeros:
         contador_numero += 1
         print(f"El numero {numero} aparece {contador_numero} veces")
     else:
-        print(f"El numero {numero} no aparece")
+        print(f"El numero {numero} no aparece.")
 contar_numeros(5)
 contar_numeros(3)
 contar_numeros(8)

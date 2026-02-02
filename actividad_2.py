@@ -6,7 +6,7 @@ def gestionar_alumno() -> None:
     alumno["aprobado"] = True
     del alumno["curso"]
     for dato in alumno:
-        print(f"{dato}: {alumno[dato]}")
+        print(f"{dato}: {alumno[dato]}.")
 
 
 gestionar_alumno()
